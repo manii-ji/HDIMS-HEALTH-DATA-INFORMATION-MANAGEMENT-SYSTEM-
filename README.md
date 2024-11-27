@@ -1,4 +1,4 @@
-# HDIMS-HEALTH-DATA-INFORMATION-MANAGEMENT-SYSTEM-
+#  HDIMS - Python-kivy kivymd-HEALTH-DATA-INFORMATION-MANAGEMENT-SYSTEM-
 This project focuses on addressing the critical need for streamlined data handling in the healthcare sector, offering a centralized platform to collect, organize, and analyze data from multiple hospitals.
 
 Through HDIMS, I have aimed to bridge the gap between data and decision-making, showcasing how technology can drive meaningful improvements in critical industries like healthcare.
