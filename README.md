@@ -23,61 +23,19 @@ Real-World Impact: Supports decision-makers in the healthcare sector with action
 This project demonstrates  skills in Python, app development, and user interface design while addressing a real-world problem in healthcare.
 
 
+Packages to  installl :
 
-HDIMS Configuration Guide
-This guide outlines the steps required to set up and run the HDIMS project on your local machine.
+kivy==2.1.0  //Framework for building multi-platform user interfaces.
 
-Prerequisites
-Before starting, ensure you have the following installed:
+kivymd==1.1.1   //Material Design library for Kivy to enhance UI/UX.
 
-Python 3.7 or later
-Pip (Python package manager)
-Git
-Setup Steps
-Step 1: Clone the Repository
-Open a terminal or command prompt.
-Run the following command to clone the repository:
-bash
-Copy code
-git clone https://github.com/manii-ji/HDIMS-HEALTH-DATA-INFORMATION-MANAGEMENT-SYSTEM-.git
-Navigate to the project folder:
-bash
-Copy code
-cd HDIMS-HEALTH-DATA-INFORMATION-MANAGEMENT-SYSTEM-
-Step 2: Create a Virtual Environment (Optional but Recommended)
-Create a virtual environment:
-bash
-Copy code
-python -m venv venv
-Activate the virtual environment:
-Windows:
-bash
-Copy code
-venv\Scripts\activate
-Linux/Mac:
-bash
-Copy code
-source venv/bin/activate
-Step 3: Install Dependencies
-Install the required Python packages by running:
-bash
-Copy code
-pip install -r requirements.txt
-Running the Application
-Step 4: Run the App
-Ensure you are in the project directory.
+pandas==2.1.1  //For handling and manipulating healthcare data.
 
-Launch the app using the following command:
+matplotlib==3.7.2  //For creating charts and visualizations.
 
-bash
-Copy code
-python main.py
-The app will start, and you can interact with the Health Data Information Management System.
+numpy==1.25.2  //Supports numerical computations for data analysis.
 
-Additional Notes
-Data Files: Ensure any data files required by the application are in their appropriate directories as specified in the code.
-Configuration Changes: If any configuration settings are required (like API keys, database URLs, or file paths), update them in the config.py file (if applicable).
-Testing: Run the test scripts (if included) to verify the setup using:
-bash
-Copy code
-python test_script.py
+openpyxl==3.1.2   //Helps read and write Excel files.
+
+
+
